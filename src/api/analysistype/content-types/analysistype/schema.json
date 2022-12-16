@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "analysistypes",
+  "info": {
+    "singularName": "analysistype",
+    "pluralName": "analysistypes",
+    "displayName": "analysistype",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    }
+  }
+}
